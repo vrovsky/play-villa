@@ -13,25 +13,30 @@ export default function MainPage() {
         </p>
         <a
           href="#about"
-          className="border border-white px-6 py-2 rounded-full hover:bg-white hover:text-black transition"
+          className="border border-slate-400 font-semibold px-6 py-2 rounded-lg hover:bg-red-800  transition duration-400"
         >
           ↓ Scroll to Explore
         </a>
       </section>
 
       {/* About Us */}
-      <section id="about" className="max-w-3xl mx-auto px-6 py-20 text-center">
-        <h2 className="text-3xl font-semibold mb-4">About Us</h2>
-        <p className="text-lg text-gray-300">
-          Play Villa is a private sex-positive retreat for the curious, the
-          conscious, and the brave. We mix art, kink, and emotional safety to
-          create a space of connection, exploration, and sensual freedom. Our
-          values are consent, care, creativity — and joy.
-        </p>
-      </section>
+      <div className="">
+        <section
+          id="about"
+          className="max-w-3xl mx-auto px-6 py-20 text-center"
+        >
+          <h2 className="text-3xl font-semibold mb-4">About Us</h2>
+          <p className="text-lg text-gray-300">
+            Play Villa is a private sex-positive retreat for the curious, the
+            conscious, and the brave. We mix art, kink, and emotional safety to
+            create a space of connection, exploration, and sensual freedom. Our
+            values are consent, care, creativity — and joy.
+          </p>
+        </section>
+      </div>
 
       {/* Past Events */}
-      <section className="bg-gray-900 py-20 px-6">
+      <section className="bg-red-950 pt-16 pb-20 px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-semibold mb-8">Past Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -56,7 +61,7 @@ export default function MainPage() {
       </section>
 
       {/* Contact */}
-      <section className="bg-gray-900 py-20 px-6 text-center">
+      <section className="bg-red-950 py-20 px-6 text-center">
         <h2 className="text-3xl font-semibold mb-6">Contact</h2>
         <p className="text-lg mb-4 text-gray-300">
           Want to know more? Get in touch.
